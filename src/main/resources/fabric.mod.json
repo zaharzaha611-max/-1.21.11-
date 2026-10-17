@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "backclip",
+  "version": "${version}",
+  "name": "Backclip",
+  "description": "Жезл клиппинга: вставляйте любой декоративный блок (в том числе из других модов) в другой блок - эффект клиппинга как в Backrooms.",
+  "authors": ["You"],
+  "license": "MIT",
+  "icon": "assets/backclip/textures/item/clip_wand.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.backclip.BackclipMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
